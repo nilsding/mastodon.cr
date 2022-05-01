@@ -7,7 +7,7 @@ module Mastodon
         include JSON::Serializable
 
         @[JSON::Field(key: "id")]
-        property id : Int64
+        property id : String
 
         @[JSON::Field(key: "redirect_uri")]
         property redirect_uri : String
